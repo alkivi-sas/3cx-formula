@@ -1,14 +1,9 @@
 ================
-template-formula
+3cx-formula
 ================
 
-A saltstack formula that is empty. It has dummy content to help with a quick
-start on a new formula.
+A saltstack formula to manage installation of 3cx IPBX.
 
-.. note::
-
-    See the full `Salt Formulas installation and usage instructions
-    <http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html>`_.
 
 Available states
 ================
@@ -16,7 +11,8 @@ Available states
 .. contents::
     :local:
 
-``template``
+``3cx.install``
 ------------
 
-Installs the template package, and starts the associated template service.
+Installs the repo and install the package.
+Need to kill the prompt and run cleanup afterward.
